@@ -10,7 +10,7 @@ Android app (Java + XML layouts, Material 3) for planning a group trip and split
 - Paying is an honor system: each person marks themselves as paid or not. No real payments.
 
 ## Team roles
-- **Frontend (UI/UX):** Ameen. Screens, layouts, styles.
+- **Frontend (UI/UX):** Mohammad. Screens, layouts, styles.
 - **Backend:** a teammate. Accounts, trips, invites, confirmations, paid status.
 - Keep code simple and readable so either person (and their AI assistant) can follow it.
 
