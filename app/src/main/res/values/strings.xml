@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">MobilDevProj</string>
+    <!-- Change the app name here and it updates everywhere -->
+    <string name="app_name">Trip Planner</string>
+    <string name="tagline">Plan the trip. Split the cost. See who\'s in.</string>
+
+    <!-- Shared form labels -->
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_email">you@example.com</string>
+
+    <!-- Sign in -->
+    <string name="sign_in">Sign in</string>
+    <string name="new_here">New here?</string>
+    <string name="create_an_account">Create an account</string>
+
+    <!-- Create account -->
+    <string name="back">←  Back</string>
+    <string name="create_account">Create account</string>
+    <string name="create_account_subtitle">Your display name is what other trip members see.</string>
+    <string name="label_display_name">Display name</string>
+    <string name="hint_display_name">Your name</string>
+    <string name="hint_new_password">At least 8 characters</string>
+    <string name="label_confirm_password">Confirm password</string>
+
+    <!-- Form errors -->
+    <string name="error_fill_all_fields">Please fill in every field.</string>
+    <string name="error_invalid_email">Enter a valid email address.</string>
+    <string name="error_password_short">Password must be at least 8 characters.</string>
+    <string name="error_passwords_dont_match">Passwords do not match.</string>
+
+    <!-- Home -->
+    <string name="your_trips">Your trips</string>
+    <string name="owed_to_you">Owed to you</string>
+    <string name="you_owe">You owe</string>
+    <string name="new_trip">New trip</string>
+    <string name="nav_trips">Trips</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_profile">Profile</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="account_menu_description">Account. Tap to sign out.</string>
+    <string name="sign_out_title">Sign out?</string>
+    <string name="sign_out">Sign out</string>
+    <string name="cancel">Cancel</string>
+    <!-- %1$d = people going, %2$s = cost per person like $25.00 -->
+    <string name="trip_subtitle">%1$d going · %2$s each</string>
 </resources>
