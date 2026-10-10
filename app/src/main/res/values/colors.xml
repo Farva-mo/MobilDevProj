@@ -2,4 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand: one green accent, matching the wireframes -->
+    <color name="green">#FF2D6F5E</color>
+    <color name="green_tint">#FFE3EFEA</color>
+
+    <!-- Money: green = you are owed, red = you owe -->
+    <color name="money_positive">#FF2D6F5E</color>
+    <color name="money_negative">#FFA63D2F</color>
+
+    <!-- Text and surfaces -->
+    <color name="text_primary">#FF1B1B1B</color>
+    <color name="text_secondary">#FF6B6B6B</color>
+    <color name="field_background">#FFF3F3F3</color>
+    <color name="card_stroke">#FFE4E4E4</color>
 </resources>

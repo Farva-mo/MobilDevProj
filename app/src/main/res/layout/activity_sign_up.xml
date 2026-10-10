@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Screen 2: Create account. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/link_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:text="@string/back"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/create_account"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/create_account_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/Widget.App.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:labelFor="@+id/input_display_name"
+            android:text="@string/label_display_name" />
+
+        <EditText
+            android:id="@+id/input_display_name"
+            style="@style/Widget.App.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:autofillHints="name"
+            android:hint="@string/hint_display_name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName|textCapWords" />
+
+        <TextView
+            style="@style/Widget.App.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@+id/input_email"
+            android:text="@string/label_email" />
+
+        <EditText
+            android:id="@+id/input_email"
+            style="@style/Widget.App.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:autofillHints="emailAddress"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            style="@style/Widget.App.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@+id/input_password"
+            android:text="@string/label_password" />
+
+        <EditText
+            android:id="@+id/input_password"
+            style="@style/Widget.App.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:autofillHints="newPassword"
+            android:hint="@string/hint_new_password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword" />
+
+        <TextView
+            style="@style/Widget.App.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:labelFor="@+id/input_confirm_password"
+            android:text="@string/label_confirm_password" />
+
+        <EditText
+            android:id="@+id/input_confirm_password"
+            style="@style/Widget.App.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:autofillHints="newPassword"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+
+        <!-- Hidden until a problem needs to be shown -->
+        <TextView
+            android:id="@+id/text_error"
+            style="@style/Widget.App.Error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_create_account"
+            style="@style/Widget.App.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/create_account" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Small grey label above a text field -->
+    <style name="Widget.App.Label" parent="">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Grey filled text field -->
+    <style name="Widget.App.Input" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- Red message shown above a button when the form has a problem -->
+    <style name="Widget.App.Error" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/money_negative</item>
+        <item name="android:accessibilityLiveRegion">polite</item>
+    </style>
+
+    <!-- Big green button -->
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+</resources>
